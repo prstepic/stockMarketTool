@@ -6,7 +6,7 @@ const port = 8080;
 const axiosRequest = require('axios');
 const database = require('mongodb');
 const userDbPassword = '<password-hidden>';
-const user = '<user-hidden';
+const user = '<user-hidden>';
 const dbName = 'userFinancialData';
 const clusterUrl = 'mongodb+srv://'+ user + ':' + userDbPassword + 
                     '@stockmarkettoolcluster.ejvhb.mongodb.net/' + dbName + '?retryWrites=true&w=majority';
